@@ -428,7 +428,7 @@ img {
   margin-left: auto;
   transition: .4s;
 }
-.skills__titles{
+.skills__title{
   display: flex;
   justify-content: space-between;
 margin-bottom: var(--mb-0-5);
@@ -466,17 +466,11 @@ margin-bottom: var(--mb-0-5);
   width: 90%;
 }
 
-.skills__android{
-  width: 70%;
-}
 
 .skills__flutter{
   width: 50%;
 }
 
-.skills__dart{
-  width: 50%;
-}
 
 .skills__html{
   width: 90%;
