@@ -79,6 +79,7 @@ modalBtns.forEach((modalBtn,i) => {
     modalBtn.addEventListener('click',() =>{
         modal(i)
     })
+    
 })
 
 modalCloses.forEach((modalClose) => {
