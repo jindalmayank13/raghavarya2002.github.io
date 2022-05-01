@@ -355,6 +355,14 @@ img {
   align-items: center;
 
 }
+.button--white{
+  background-color: #FFF;
+  color: var(--first-color);
+
+}
+.button--white:hover{
+  background-color: #FFF;
+}
 .button--small{
 padding: .75rem 1rem;
 
@@ -786,7 +794,7 @@ outline: none;
 .project__img{
   width: 232px;
   justify-self: center;
-  
+
 }
 
 /*==================== TESTIMONIAL ====================*/
