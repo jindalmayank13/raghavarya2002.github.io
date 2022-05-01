@@ -712,6 +712,7 @@ margin-right: var(--mb-0-25);
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
   overflow: initial;
+  position: relative;
 }
 .portfolio__content{
   padding: 0 1.5rem;
