@@ -116,6 +116,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -171,7 +172,7 @@ img {
 
 .header {
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
