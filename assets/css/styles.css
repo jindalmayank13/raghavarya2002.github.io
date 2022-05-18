@@ -116,7 +116,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  overflow-wrap: normal;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -867,7 +867,7 @@ display: flex;
 .swiper-container
 .swiper-pagination-testimonial{
   bottom: 0;
-  position: fixed;
+  position: relative;
 }
 
 
