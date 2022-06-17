@@ -741,7 +741,7 @@ margin-bottom: var(--mb-0-5);
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header{
-    display: flex;
+    display: grid;
 }
 .testimonial__data{
     justify-content: space-between;
@@ -759,10 +759,11 @@ margin-bottom: var(--mb-0-5);
 }
 .testimonial__client{
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: var(--title-color);
 }
 .testimonial__description{
     margin-bottom: var(--mb-2-5);
+    border-radius: 5%;
 }
 .testimonial__icon-star{
     color: var(--first-color);
@@ -846,7 +847,7 @@ margin-bottom: var(--mb-0-5);
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color);
+    color: var(--title-color);
     margin-top: var(--mb-3);
 }
 .footer__title,
